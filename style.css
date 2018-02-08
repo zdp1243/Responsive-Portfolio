@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
   }
   
+ 
   /* general */
   
   .container {
@@ -251,6 +252,7 @@ body {
     box-sizing: border-box;
     margin: 0;
   }
+
   
   /* sticky footer styling */
   
@@ -332,6 +334,23 @@ body {
   h3 {
     font-size: 22px;
   }
+
+  /*Media Queries*/
+ 
+  .kolor {
+     color:#666666;
+ }
+ @media (max-width: 640px) {
+    body {color: red;}
+}
+ 
+@media all and (min-width: 641px) and (max-width:768px) {
+    body {color: purple;}
+}
+
+@media all and (min-width: 769px) and (max-width:980px) {
+    body {color: green;}
+}
   
   /* header */
   
