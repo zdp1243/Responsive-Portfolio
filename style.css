@@ -417,7 +417,9 @@ footer {
 }
 
 /* sidebar */
-
+.nounderline {
+  text-decoration: none;
+}
 .sidebar {
   float: right;
   width: 100%;
