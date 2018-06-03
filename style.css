@@ -333,9 +333,9 @@ h3 {
   font-size: 22px;
 }
 
-/*Media Queries*/
+/*Media Queries--This was to change the color of the text to show responiveness for the assignment, but I have disabled it for this assignment.*/
 
-.kolor {
+/* .kolor {
   color: #666666;
 }
 
@@ -355,7 +355,7 @@ h3 {
   .kolor {
     color: red;
   }
-}
+} */
 
 /* header */
 
